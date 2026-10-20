@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+
+<Pane xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.robot.Controller"
+      fx:id="plocha"
+      prefWidth="600" prefHeight="400"
+      focusTraversable="true"
+      style="-fx-background-color: white;">
+</Pane>
