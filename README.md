@@ -1,0 +1,2 @@
+# ObjektoveTechnologie
+ulohy odovzdane
