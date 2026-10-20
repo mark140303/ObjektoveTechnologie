@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.pocasie.Controller"
+            prefWidth="700" prefHeight="500">
+    <top>
+        <HBox spacing="10">
+            <Button text="Pridaj oblak" onAction="#pridajOblak" />
+            <Button text="Pridaj dazd" onAction="#pridajDazd" />
+            <Button text="Pridaj snieh" onAction="#pridajSnieh" />
+            <Button text="Zastav dazd" onAction="#zastavDazd" />
+            <Button text="Oblaky na modro" onAction="#zmenOblakyNaModro" />
+            <Button text="Posun vlavo" onAction="#posunVlavo" />
+        </HBox>
+    </top>
+    <center>
+        <Pane fx:id="plocha" style="-fx-background-color: skyblue;" />
+    </center>
+</BorderPane>
